@@ -29,6 +29,9 @@ jobs:
       - name: Validate Gradle Wrapper Integrity
         uses: gradle/wrapper-validation-action@v2
 
+      - name: Make Gradle Wrapper Executable
+        run: chmod +x ./gradlew
+
       - name: Build All Mods
         run: ./gradlew :charflint:build :runeindustry:build
 
