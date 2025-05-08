@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "runeindustry:blank_rune" }
+  ],
+  "results": [
+    { "item": "runeindustry:air_rune" }
+  ],
+  "heatRequirement": "heated"
+}

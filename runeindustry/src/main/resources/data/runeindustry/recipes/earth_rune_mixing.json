@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "runeindustry:blank_rune" },
+    { "item": "minecraft:dirt" }
+  ],
+  "results": [
+    { "item": "runeindustry:earth_rune" }
+  ]
+}

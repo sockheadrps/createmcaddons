@@ -1,0 +1,10 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "charflint:blank_rune" },
+    { "fluid": "minecraft:lava", "amount": 20250 }
+  ],
+  "results": [
+    { "item": "charflint:fire_rune" }
+  ]
+}

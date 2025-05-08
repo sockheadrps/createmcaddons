@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "runeindustry:fire_rune" },
+    { "item": "minecraft:gunpowder" }
+  ],
+  "results": [
+    { "item": "runeindustry:explo_rune" }
+  ],
+  "heatRequirement": "none"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "charflint",
+  "version": "${version}",
+  "name": "Charflint Mod",
+  "description": "This is my Charflint mod!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+  },
+    "license": "CC0",
+    "icon": "assets/charflint/icon.png",
+    "environment": "*",
+    "entrypoints": {
+      "main": [
+        "com.charflint.CharflintMod"
+      ],
+      "client": ["com.charflint.CharflintModClient"]
+    },
+    "mixins": [
+      "charflint.mixins.json"
+    ],
+    "depends": {
+      "fabricloader": ">=${fabric_loader_version}",
+      "fabric-api": ">=${fabric_api_version}",
+      "create": "${create_version}",
+      "minecraft": "${minecraft_version}"
+    }
+  }

@@ -1,0 +1,10 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "runeindustry:blank_rune" },
+    { "fluid": "minecraft:lava", "amount": 20250 }
+  ],
+  "results": [
+    { "item": "runeindustry:fire_rune" }
+  ]
+}

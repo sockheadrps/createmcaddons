@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "charflint:fire_rune" },
+    { "item": "minecraft:gunpowder" }
+  ],
+  "results": [
+    { "item": "charflint:explo_rune" }
+  ],
+  "heatRequirement": "none"
+}

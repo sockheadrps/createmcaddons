@@ -1,0 +1,17 @@
+
+pluginManagement {
+	repositories {
+		maven { url = "https://maven.fabricmc.net/" }
+		maven { url = "https://server.bbkr.space/artifactory/libs-release/" }
+		maven { url = "https://maven.quiltmc.org/repository/release" }
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+
+
+include("charflint")
+project(":charflint").projectDir = file("charflint")
+
+include("runeindustry")
+project(":runeindustry").projectDir = file("runeindustry")

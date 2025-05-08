@@ -1,0 +1,9 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    { "item": "charflint:molten_charflint" }
+  ],
+  "results": [
+    { "item": "charflint:flint_charcoal_block" }
+  ]
+}

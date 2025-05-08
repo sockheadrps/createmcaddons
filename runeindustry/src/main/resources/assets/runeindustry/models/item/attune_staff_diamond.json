@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "runeindustry:item/attuned_staff_diamond"
+  }
+}
